@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portal - Charan Varma</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: #ffffffee;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      width: 90%;
+      max-width: 500px;
+      text-align: center;
+      animation: fadeIn 1s ease-in;
+    }
+
+    header {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #1e3c72;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #1e3c72;
+      color: #fff;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>Welcome to the Student Portal</header>
+    <p>This static site is hosted using <strong>AWS S3</strong></p>
+
+    <main>
+      <h2>Student Details</h2>
+      <table>
+        <tr>
+          <th>Field</th>
+          <th>Information</th>
+        </tr>
+        <tr>
+          <td>Student Name</td>
+          <td>KOSURU CHARANDEEP VARMA</td>
+        </tr>
+        <tr>
+          <td>Registration ID</td>
+          <td>2310030307</td>
+        </tr>
+        <tr>
+          <td>Section</td>
+          <td>A5</td>
+        </tr>
+      </table>
+    </main>
+
+    <footer>© 2025 Student Portal</footer>
+  </div>
+</body>
+</html>
